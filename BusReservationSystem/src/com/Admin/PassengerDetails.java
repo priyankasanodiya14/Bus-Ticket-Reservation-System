@@ -1,9 +1,9 @@
-package com.Entities;
+package com.Admin;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 
-public class TransactionDetails {
+public class PassengerDetails {
  public int getDetails(int ticketI[][], String ticketS[][], double ticketD[][], String search,BufferedReader in, int z,double change[], String again, double pay[]) throws IOException {
 	 int x=3;
 	  
@@ -21,7 +21,7 @@ public class TransactionDetails {
 						System.out.println("------------------------------------------");
 						System.out.println("PASSENGER'S NAME: " + ticketS[b][0]);
 						System.out.println("PASSENGER'S DESTINATION : " + ticketS[b][1]);
-						System.out.println("FARE PRICE: INR" + ticketD[b][0]);
+						System.out.println("FARE PRICE: Php" + ticketD[b][0]);
 						System.out.println("NO. OF PASSENGERS: " + ticketI[b][0]);
 						System.out.println("NO. OF PASSENGERS WITH DISCOUNT: " + ticketI[b][1]);
  						System.out.println("------------------------------------------");
@@ -38,7 +38,7 @@ public class TransactionDetails {
 							
 						
 							for(x=1; x==1;){
-								System.out.println("\nPASSENGER'S TOTAL FARE: INR "+ticketD[b][2]);
+								System.out.println("\nPASSENGER'S TOTAL FARE: Php "+ticketD[b][2]);
 								System.out.print("ENTER AMOUNT TO PAY: ");
 								pay[b] = Double.parseDouble(in.readLine());
 								change[b]=pay[b]-ticketD[b][2];
@@ -48,7 +48,7 @@ public class TransactionDetails {
 									x=1;
 								}
 								else{
-									System.out.println("CHANGE: INR "+change[b]);
+									System.out.println("CHANGE: Php "+change[b]);
 									System.out.println("");
 									x=0;
 								}

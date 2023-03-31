@@ -3,12 +3,12 @@ package com.Entities;
 import java.io.BufferedReader;
 import java.io.IOException;
 
-public class exit {
+public class Exit {
 public int getDetails(String choice, int x, int y, int end, BufferedReader in, String yn, int i )  throws NumberFormatException, IOException{
 	if(choice.equals("5")){
 		end=1;
 		x=0;
-		System.out.println("Thank You!");
+		System.out.println("Thank You For Booking!");
 	}
 
 	else{

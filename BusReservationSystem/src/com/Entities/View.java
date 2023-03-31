@@ -13,9 +13,9 @@ public int getDetails(double pay[], double change[],String search,BufferedReader
 	   	int s=1;
 		for(int x=0; x<=z; x++){
 			if(search.equalsIgnoreCase(ticketS[x][0])){
-				System.out.println("***************************************");
-				System.out.println("**        PASSENGER'S DETAILS        **");
-				System.out.println("***************************************");
+				System.out.println("------------------------------------------");
+				System.out.println("       PASSENGER'S DETAILS        ");
+				System.out.println("------------------------------------------");
 				System.out.println("PASSENGER'S NAME: " + ticketS[x][0]);
 				System.out.println("PASSENGER'S DESTINATION : " + ticketS[x][1]);
 				System.out.println("FARE PRICE: INR" + ticketD[x][0]);
@@ -31,7 +31,7 @@ public int getDetails(double pay[], double change[],String search,BufferedReader
 					System.out.println("STATUS: NOT PAID");
 				}
 				System.out.println("----------------------------------------");
-				System.out.println("***************************************");
+				System.out.println("------------------------------------------");
 				s=0;
 			    sx=4;
 			}
