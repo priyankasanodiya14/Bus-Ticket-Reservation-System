@@ -13,14 +13,14 @@ public class PassengerInfo {
 		System.out.println("***************************************");
 		System.out.println("**   DESTINATION   |  FARE  |  SEAT  **");
 		System.out.println("***************************************");
-		System.out.println("** 1.)DAVAO CITY   | Php600 |   "+available[1]+"   **");
-		System.out.println("** 2.)BUTUAN CITY  | Php170 |   "+available[2]+"   **");
-		System.out.println("** 3.)CABADBARAN   | Php150 |   "+available[3]+"   **");
-		System.out.println("** 4.)TANDAG       | Php200 |   "+available[4]+"   **");
-		System.out.println("** 5.)CAGAYAN      | Php250 |   "+available[5]+"   **");
+		System.out.println("** 1.)Delhi   | INR600 |   "+available[1]+"   **");
+		System.out.println("** 2.)Raipur  | INR170 |   "+available[2]+"   **");
+		System.out.println("** 3.)Chennai   | INR150 |   "+available[3]+"   **");
+		System.out.println("** 4.)Surat      | INR200 |   "+available[4]+"   **");
+		System.out.println("** 5.)Nagpur      | INR250 |   "+available[5]+"   **");
 		System.out.println("***************************************");
 		System.out.println("***************************************\n");
-		System.out.println("PWD, STUDENT, & SENIOR CITIZEN with 20% DISCOUNT!!!\n");
+		System.out.println("PWD, STUDENT, & SENIOR CITIZEN with 15% DISCOUNT!!!\n");
 		
 		if((available[1]==0)&&(available[2]==0)&&(available[3]==0)&&(available[4]==0)&&(available[5]==0)){
 			System.out.println("Sorry, We don't  have available seats for all Destination!");
@@ -72,7 +72,7 @@ public class PassengerInfo {
 		}
 		
 		//convert the integer to string//
-		String dest[] = { " ", "DAVAO CITY", "BUTUAN CITY", "CABADBARAN", "TANDAG", "CAGAYAN"};
+		String dest[] = { " ", "Delhi", "Raipur", "Chennai", "Surat", "Nagpur"};
 		double fare[] = { 0,600,170,150,200,250};
 
 		//converted integer to string, transfer to storage array//
@@ -132,7 +132,7 @@ public class PassengerInfo {
 			System.out.println("***************************************");
 			System.out.println("PASSENGER'S NAME: " + ticketS[z][0]);
 			System.out.println("PASSENGER'S DESTINATION : " + ticketS[z][1]);
-			System.out.println("FARE PRICE: Php " + ticketD[z][0]);
+			System.out.println("FARE PRICE: INR " + ticketD[z][0]);
 			System.out.println("NO. OF PASSENGERS: " + ticketI[z][0]);
 			System.out.println("NO. OF PASSENGERS WITH DISCOUNT: " + ticketI[z][1]);
 			System.out.println("***************************************");
