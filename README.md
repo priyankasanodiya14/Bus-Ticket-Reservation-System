@@ -5,7 +5,7 @@ A brief description of what this project does and who it's for A bus ticket rese
 
 Bus ticket reservation system is a console based project.
 # Screenshots
-![App Screenshot](+Here)
+![App Screenshot](https://github.com/priyankasanodiya14/gleaming-experience-7292/tree/main/BusReservationSystem/Screenshot+Here)
 # Features
 Administrator can login his username and password
 
@@ -21,5 +21,5 @@ Passengers can access their transaction history
 Java
 Spring tool suite
 Github
-Drawbacks
+# Drawbacks
 Admin can't add, update, delete the information.
