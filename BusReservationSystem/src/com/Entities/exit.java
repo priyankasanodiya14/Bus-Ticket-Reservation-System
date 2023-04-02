@@ -47,6 +47,11 @@ i++;
 return i;
 
 }
+
+public int getDetails(Object choice, int x, int y, int end, BufferedReader in, String yn, int i) {
+	// TODO Auto-generated method stub
+	return 0;
+}
 }
 
 
