@@ -2,7 +2,7 @@
 
 # YatraSarthi
 
-Welcome toYatraSarthi, your one-stop solution for bus ticket booking. YatraSarthi bus reservation system is a state-of-the-art Spring Boot application designed to revolutionize the way customers book and purchase bus tickets online. With a focus on delivering a personalized, user-friendly experience, our platform brings convenience, efficiency, and reliability to the world of bus travel.
+Welcome to YatraSarthi, your one-stop solution for bus ticket booking. YatraSarthi bus reservation system is a state-of-the-art Spring Boot application designed to revolutionize the way customers book and purchase bus tickets online. With a focus on delivering a personalized, user-friendly experience, our platform brings convenience, efficiency, and reliability to the world of bus travel.
 ## About YatraSarthi
 
 YatraSarthi is designed with the following key features:
@@ -46,7 +46,7 @@ YatraSarthi is built using the following technologies:
 
 ## Prerequisites
 
-Before running BookBusBindaas locally, ensure you have the following prerequisites installed:
+Before running YatraSarthi locally, ensure you have the following prerequisites installed:
 - Java 8 or higher
 - Maven
 - MySQL Server
