@@ -7,13 +7,13 @@ Welcome to YatraSarthi, your one-stop solution for bus ticket booking. YatraSart
 
 YatraSarthi is designed with the following key features:
 
-### Admin Panel
+### Admin Operations
 
 - **Bus Management**: Administrators can easily add new bus details, including routes, schedules, and other relevant information.
 - **Route Management**: Efficiently create and manage bus routes, ensuring accurate and up-to-date route information.
 - **Bus Deletion**: Admins have the capability to remove buses from the system when necessary, maintaining a clean and updated database.
 
-### User Account Creation
+### User Operations
 
 - **User Registration**: Users can securely create their accounts, providing personal information for future bookings.
 - **Ticket Booking**: The platform offers a convenient ticket booking process, allowing users to choose their preferred routes, seats, and schedules.
