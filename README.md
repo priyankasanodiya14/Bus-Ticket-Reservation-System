@@ -28,7 +28,7 @@ YatraSarthi is built using the following technologies:
 - Java
 - Hibernate
 - Spring Framework
-- Spring Security
+- Spring Boot
 - MySQL
 - Maven
 - Swagger UI
@@ -44,12 +44,6 @@ YatraSarthi is built using the following technologies:
 - **Operator Module**
 - **Customer Module**
 
-## Prerequisites
-
-Before running YatraSarthi locally, ensure you have the following prerequisites installed:
-- Java 8 or higher
-- Maven
-- MySQL Server
 
 ## Installation & Run
 
