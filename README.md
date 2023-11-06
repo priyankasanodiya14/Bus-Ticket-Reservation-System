@@ -26,16 +26,13 @@ YatraSarthi aims to streamline the bus ticket booking experience, making it hass
 YatraSarthi is built using the following technologies:
 
 - Java
-- Hibernate
 - Spring Framework
 - Spring Boot
 - MySQL
 - Maven
 - Swagger UI
 - Lombok
-- HTML
-- CSS
-- JavaScript
+  
 
 ## Modules
 
